@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 800px;
+    margin: 0 auto;
+    background-color: bisque;
+}
+
+.ul {
+    display: flex;
+    font-size: 30px;
+    gap: 15px;
+    justify-content: space-around;
+}
+
+.gold {
+    color: blue;
+    text-decoration: underline;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+.btns {
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.img_container {
+    width: max-content;
+    height: auto;
+    margin: 0 auto;
+}
